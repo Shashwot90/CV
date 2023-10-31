@@ -7,14 +7,15 @@ import cv2 as cv
 
 #read videos
 
-capture = cv.VideoCapture('Videos/dog.mp4')#camera in computer
+# capture = cv.VideoCapture('Videos/dog.mp4')#camera in computer
 
-while True:
-    isTrue, frame = capture.read()
-    cv.imshow('Video', frame)
+# while True:
+#     isTrue, frame = capture.read()
+#     cv.imshow('Video', frame)
     
-    if cv.waitKey(20) & 0xFF==ord('d'):
-        break
+#     if cv.waitKey(20) & 0xFF==ord('d'):
+#         break
     
-capture.release()
-cv.destroyAllWindows()
+# capture.release()
+# cv.destroyAllWindows()
+
